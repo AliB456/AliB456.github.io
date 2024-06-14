@@ -1,0 +1,414 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+.container {
+    margin: 0px 160px;
+}
+.container2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 400px;
+
+}
+.header-logo {
+    margin-right: 20px;
+}
+.header-line {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+button {
+    padding: 8px;
+    width: 200px;
+    background: rgb(0,62,184);
+    background: linear-gradient(90deg, rgba(0,62,184,1) 0%, rgba(0,28,82,1) 100%);
+    color: white;
+    font-family: "Inter";
+    font-size: 15px;
+}
+.banner-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banneer-holder {
+    display: flex;
+}
+.banner-holder-title {
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.page-describe {
+    font-family: "Inter";
+    font-size: 25px;
+    width: 90%;
+}
+.page-price {
+    font-family: "Inter";
+    font-size: 20px;
+}
+.banner-holder-suptitle {
+    font-family: "Inter";
+    font-size: 15px;
+}
+.page2-title {
+    font-family: "Inter";
+    font-size: 27px;
+}
+.page2-subtitle {
+    font-family: "Inter";
+    font-size: 20px;
+    color: #9d9d9d;
+}
+.nav a {
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header {
+    background: rgb(32,164,243);
+    background: linear-gradient(90deg, rgba(32,164,243,1) 0%, rgba(61,167,231,1) 100%);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.banner {
+    background: rgb(32,164,243);
+    background: linear-gradient(90deg, rgba(32,164,243,1) 0%, rgba(61,167,231,1) 100%);
+    width: 100%;
+    display: flex;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerr {
+    width: 100%;
+    display: flex;
+    height: 450px;
+    
+}
+
+.contact-button {
+    padding: 4px;
+    width: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Inter";
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card {
+    width: 265px;
+    height: 275px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    background-color: #d9d9d9;
+    margin-right: 30px;   
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+     display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+}
+
+
+.card-desc {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 20px;
+}
+
+.cards-2 {
+    padding-top: 50px;
+}
+.about-us {
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+}
+.footer {
+    background-image: url(Images/mtls-top-image\ 1.png);
+    height: 200px;
+    margin-top: 100px; 
+}
+
+.holder {
+    justify-content: space-between;
+    width: 50%; 
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contaainer { 
+    width: 20%;
+}
+.card-between {
+    height: 50px;
+}
+
+
+.logo-size {
+    width: 262px;
+    height: 160px;
+}
+
+.about-us-text {
+    font-family: "Inter";
+    font-size: 22px;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.logo-holder {
+    padding-top: 50px;
+    margin-right: 75px;
+}
+.hold-it {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.img-between {
+    
+}
+.delivery-title {
+    width: 40%;
+}
+.delivery-img-holder {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.deliveryy {
+
+    margin-right: 70px;  
+}
+
+.delivery-image {
+    display: flex;
+    justify-content: center;
+}
+
+.delivery-title {
+    display: flex;
+    text-align: center;   
+    margin-top: 20px;
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+}
+
+.faces {
+    width: 300px;
+    margin-right: 130px;   
+}
+p {
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: bold;
+}
+.faces-image {
+    display: flex;
+    justify-content: center;
+}
+
+.faces-title {
+     display: flex;
+    margin-top: 20px;
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+}
+.size-ban {
+    margin-top: 50px;
+}
+footer {
+    height: 100%;
+    width: 100%;
+    padding: -20px;
+    background-image: url(Images/mtls-top-image\ 1.png);
+}
+.con1 {
+    width: 360px;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.icon-row1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+.icon-item1 {
+    text-align: center;
+}
+.icon-item1 img {
+    width: 40px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.contact {
+    text-align: center;
+    width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .size-ban {
+        width: 300px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .page2-subtitle {
+        font-size: 15px;
+    }
+    .page-price {
+        font-size: 9px;
+    }
+    button {
+        padding: 2px;
+        width: 100px;
+    }
+    .container2 {
+        margin: 0 100px;
+    }
+    .header {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header-line {
+        width: 100%;
+    }
+    .card-img {
+        width: 30px;
+        height: 30px;
+    }
+    .delivery-title {
+        font-size: 7px;
+        
+    }
+    .card-img {
+        width: 30px;
+        height: 30px;
+    }
+    .faces-title {
+        font-size: 7px;
+    }
+    h1 {
+        font-size: 10px;
+    }
+    .faces {
+        margin-right: 30px;
+    }
+    .deliveryy {
+        margin-right: 20px;  
+    }
+    .delivery-title {
+        font-size: 5px;
+    }
+    .nav a {
+        font-size: 10px;
+        display: flex;
+    }
+    .header-logo img {
+        height: 70px;
+    }
+    .banner-img img {
+        height: 200px;
+        width: 200px;
+    }
+    .banner-holder-title {
+        font-size: 10px;
+    }
+    .banner-holder-suptitle {
+        font-size: 8px;
+    }
+    .card {
+        width: 300px;
+        height: 100px;
+    }
+    .card-title {
+        font-size: 5px;
+    }
+    .card-desc {
+        font-size: 7px;
+    }
+    .logo-size {
+        width: 100px;
+        height: 100px;
+    }
+    .about-us-text p {
+        font-size: 7px;
+        width: 80%;
+    }
+    .about-us {
+        height: 200px;
+    }
+    .contact p {
+        font-size: 6px;
+        width: 80%;
+    }
+    .icon-item1 img {
+        width: 15px;
+        height: 15px;
+    }
+    .logo-footer img {
+        width: 50px;
+        height: 50px;
+    }
+    .contact-button {
+        width: 50px;
+        font-size: 5px;
+    }
+    .icon-row1 {
+        max-width: 100px;
+    }
+    .con1 p {
+        font-size: 5px;
+        width: 100px;
+    }
+
+    
+}
